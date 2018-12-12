@@ -19,7 +19,7 @@ export AWS_SECRET_ACCESS_KEY: "thesecret"
 export MINIO_SECRET_KEY="akeyanykey"
 export MINIO_ACCESS_KEY="anyaccesskeyhere"
 
-./minio gateway s3
+$ ./minio gateway s3
 
 ##Output should look like this:
 
@@ -36,7 +36,7 @@ Browser Access:
 Command-line Access: https://docs.minio.io/docs/minio-client-quickstart-guide
 
 
-    $ mc config host add mys3 http://192.168.22.104:9000 Q3Aakeyanykey anyaccesskeyhere
+    $ mc config host add mys3 http://192.168.22.104:9000 akeyanykey anyaccesskeyhere
 
 Object API (Amazon S3 compatible):
    Go:         https://docs.minio.io/docs/golang-client-quickstart-guide
