@@ -19,7 +19,7 @@ export AWS_SECRET_ACCESS_KEY: "thesecret"
 export MINIO_SECRET_KEY="akeyanykey"
 export MINIO_ACCESS_KEY="anyaccesskeyhere"
 
-$ ./minio gateway s3
+$  ./minio gateway s3
 
 ##Output should look like this:
 
