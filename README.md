@@ -2,7 +2,7 @@
 Minio on raspberry pi as s3 gateway
 
 
-##on raspberry pi:
+# on raspberry pi:
 
 
 1. wget https://dl.google.com/go/go1.10.3.linux-armv6l.tar.gz
