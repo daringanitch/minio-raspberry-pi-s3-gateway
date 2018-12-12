@@ -52,7 +52,7 @@ Browser Access:
 Command-line Access: https://docs.minio.io/docs/minio-client-quickstart-guide
 
 
-    $ mc config host add mys3 http://192.168.22.104:9000 akeyanykey anyaccesskeyhere
+    $ mc config host add mys3 http://192.168.24.104:9000 akeyanykey anyaccesskeyhere
 
 Object API (Amazon S3 compatible):
    Go:         https://docs.minio.io/docs/golang-client-quickstart-guide
