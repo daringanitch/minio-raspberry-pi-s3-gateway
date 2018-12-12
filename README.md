@@ -29,6 +29,14 @@ $ export MINIO_ACCESS_KEY="anyaccesskeyhere"
 
 $  ./minio gateway s3
 
+
+to put this in the background 
+
+$ cntrl + z
+
+$ bg
+
+
 ##Output should look like this:
 
 Endpoint:  http://192.168.24.104:9000  http://127.0.0.1:9000
