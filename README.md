@@ -6,11 +6,17 @@ Minio on raspberry pi as s3 gateway
 
 
 $ wget https://dl.google.com/go/go1.10.3.linux-armv6l.tar.gz
+
 $ sudo tar -C /usr/local -xzf go1.10.3.linux-armv6l.tar.gz
+
 $ export PATH=$PATH:/usr/local/go/bin # put into ~/.bash_profile
+
 $ source .bash_profile
+
 $ go get -u github.com/minio/minio
+
 $ mkdir ~/minio-data
+
 $ cd go/bin
 
 $ export AWS_ACCESS_KEY_ID: "thekey"
