@@ -40,7 +40,11 @@ Command-line Access: https://docs.minio.io/docs/minio-client-quickstart-guide
 
 Object API (Amazon S3 compatible):
    Go:         https://docs.minio.io/docs/golang-client-quickstart-guide
+   
    Java:       https://docs.minio.io/docs/java-client-quickstart-guide
+   
    Python:     https://docs.minio.io/docs/python-client-quickstart-guide
+   
    JavaScript: https://docs.minio.io/docs/javascript-client-quickstart-guide
+   
    .NET:       https://docs.minio.io/docs/dotnet-client-quickstart-guide
