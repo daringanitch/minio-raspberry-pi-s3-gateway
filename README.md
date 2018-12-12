@@ -23,7 +23,7 @@ $  ./minio gateway s3
 
 ##Output should look like this:
 
-Endpoint:  http://192.168.22.104:9000  http://127.0.0.1:9000
+Endpoint:  http://192.168.24.104:9000  http://127.0.0.1:9000
 
 AccessKey: akeyanykey 
 
