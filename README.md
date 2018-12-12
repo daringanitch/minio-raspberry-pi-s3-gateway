@@ -13,11 +13,13 @@ Minio on raspberry pi as s3 gateway
 6. mkdir ~/minio-data
 7. cd go/bin
 
-export AWS_ACCESS_KEY_ID: "thekey"
-export AWS_SECRET_ACCESS_KEY: "thesecret"
+$ export AWS_ACCESS_KEY_ID: "thekey"
 
-export MINIO_SECRET_KEY="akeyanykey"
-export MINIO_ACCESS_KEY="anyaccesskeyhere"
+$ export AWS_SECRET_ACCESS_KEY: "thesecret"
+
+$ export MINIO_SECRET_KEY="akeyanykey"
+
+$ export MINIO_ACCESS_KEY="anyaccesskeyhere"
 
 $  ./minio gateway s3
 
